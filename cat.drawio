@@ -32,14 +32,55 @@
             <root>
                 <mxCell id="b2EDEUGKfFzts4wKsD1v-0"/>
                 <mxCell id="b2EDEUGKfFzts4wKsD1v-1" parent="b2EDEUGKfFzts4wKsD1v-0"/>
-                <mxCell id="b2EDEUGKfFzts4wKsD1v-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- furColor: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- age: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- counter: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getStringAttributes(String): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAge(): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- checkCompliance(): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- checkEscalationLevel(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="b2EDEUGKfFzts4wKsD1v-1" vertex="1">
-                    <mxGeometry x="100" y="120" width="220" height="190" as="geometry"/>
-                </mxCell>
-                <mxCell id="b2EDEUGKfFzts4wKsD1v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="b2EDEUGKfFzts4wKsD1v-1" source="b2EDEUGKfFzts4wKsD1v-2" target="b2EDEUGKfFzts4wKsD1v-2" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="b2EDEUGKfFzts4wKsD1v-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="b2EDEUGKfFzts4wKsD1v-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="280" as="sourcePoint"/>
+                        <mxPoint x="360" y="280" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="b2EDEUGKfFzts4wKsD1v-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Tomcat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- furColor: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- age: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getStringAttributes(String): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAge(): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="b2EDEUGKfFzts4wKsD1v-1" vertex="1">
-                    <mxGeometry x="400" y="120" width="220" height="190" as="geometry"/>
+                    <mxGeometry x="380" y="80" width="220" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="MpzXJ84SNRgMcJFk3PNc-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- furColor: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- age: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- counter: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getStringAttributes(String): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ getAge(): String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- checkEscalationLevel(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="b2EDEUGKfFzts4wKsD1v-1">
+                    <mxGeometry x="80" y="80" width="220" height="190" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram name="SuperCat" id="OrDAm7z_5T0a1HBwZnyN">
+        <mxGraphModel dx="780" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="Z2rP-bkc1fg0QH5GI2cQ-0"/>
+                <mxCell id="Z2rP-bkc1fg0QH5GI2cQ-1" parent="Z2rP-bkc1fg0QH5GI2cQ-0"/>
+                <mxCell id="Z2rP-bkc1fg0QH5GI2cQ-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;SuperCat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- name: String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- furColor: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- age: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getStringAttributes(String): String&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Z2rP-bkc1fg0QH5GI2cQ-1">
+                    <mxGeometry x="250" y="80" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="Z2rP-bkc1fg0QH5GI2cQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Z2rP-bkc1fg0QH5GI2cQ-1" source="Z2rP-bkc1fg0QH5GI2cQ-2" target="Z2rP-bkc1fg0QH5GI2cQ-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="Z2rP-bkc1fg0QH5GI2cQ-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Tomcat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getAge(): String&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Z2rP-bkc1fg0QH5GI2cQ-1">
+                    <mxGeometry x="440" y="320" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="Z2rP-bkc1fg0QH5GI2cQ-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Cat&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;- counter: int&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;span&gt;+ getAge(): String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- checkEscalationLevel(): String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="Z2rP-bkc1fg0QH5GI2cQ-1">
+                    <mxGeometry x="60" y="320" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="0K-yND9nqJn9gDxICuTX-2" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.422;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Z2rP-bkc1fg0QH5GI2cQ-1" target="Z2rP-bkc1fg0QH5GI2cQ-2">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="170" y="319" as="sourcePoint"/>
+                        <mxPoint x="330" y="319" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0K-yND9nqJn9gDxICuTX-3" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.422;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="Z2rP-bkc1fg0QH5GI2cQ-1" source="Z2rP-bkc1fg0QH5GI2cQ-4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="210" y="320" as="sourcePoint"/>
+                        <mxPoint x="382.8399999999999" y="200.39999999999998" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="0K-yND9nqJn9gDxICuTX-4" value="&lt;b&gt;Superklasse/ Generalisierung&lt;/b&gt;" style="html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="Z2rP-bkc1fg0QH5GI2cQ-1">
+                    <mxGeometry x="470" y="115" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="0K-yND9nqJn9gDxICuTX-5" value="&lt;b&gt;Subklasse/ Spezialisierung&lt;/b&gt;" style="html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="Z2rP-bkc1fg0QH5GI2cQ-1">
+                    <mxGeometry x="280" y="355" width="160" height="50" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
